@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Script xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/BR.Logic">
   <CompilationType>CSharp</CompilationType>
-  <Description i:nil="true" />
-  <Id>c0fdc02e-6a96-44b9-b6f6-48a40ec42833</Id>
+  <Description>New script without filling.</Description>
+  <Id>68f03c78-951f-470b-b990-8e93beffe050</Id>
   <Logic z:Id="i2" i:type="ExecutedStep">
     <Childs>
       <AbstractStep z:Id="i3" i:type="CommentStep">
         <Childs />
-        <Id>3b99b937-a360-4679-9289-3b3c95fbadf0</Id>
+        <Id>af54092c-0b4c-4282-a595-0828e3be66fe</Id>
         <Parent z:Ref="i2" />
         <PropertyValues />
         <SelectedOptionId i:nil="true" />
-        <Text>Создать активность "Окно сообщения" с любым текстом</Text>
+        <Text>Comment</Text>
       </AbstractStep>
       <AbstractStep z:Id="i4" i:type="ExecutedStep">
         <Childs />
-        <Id>f2da77a8-a794-421d-8c25-460042c56b59</Id>
+        <Id>2f833072-43b4-4933-8adc-a40792b18dbd</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
           <PropertyValue z:Id="i5">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>"hello"</_expression>
+            <_expression>"fg"</_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
           <PropertyValue z:Id="i6">
             <PropertyName>To</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>mes</_expression>
+            <_expression>a</_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
@@ -40,9 +40,9 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.Assign</_activityFullName>
       </AbstractStep>
-     <AbstractStep z:Id="i7" i:type="ExecutedStep">
+      <AbstractStep z:Id="i7" i:type="ExecutedStep">
         <Childs />
-        <Id>d1ba7160-c133-4985-b8e1-3a3f8d670888</Id>
+        <Id>2fbdf36d-988c-48c9-afda-413325df3987</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
           <PropertyValue z:Id="i8">
@@ -82,7 +82,7 @@
         <_activityFullName>Activities.Interactive.MessageBox</_activityFullName>
       </AbstractStep>
     </Childs>
-    <Id>3273e455-ee59-4ea5-9583-7cf490fe4343</Id>
+    <Id>7e7005e3-0cfe-4075-a35b-74b639fbde00</Id>
     <Parent i:nil="true" />
     <PropertyValues />
     <SelectedOptionId i:nil="true" />
@@ -92,7 +92,7 @@
     <Text></Text>
     <_activityFullName>BR.Core.Base.Container</_activityFullName>
   </Logic>
-  <Name>Main.pix</Name>
+  <Name>New script.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params" />

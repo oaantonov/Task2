@@ -6,6 +6,10 @@
       <IsMain>true</IsMain>
       <Path>Main.pix</Path>
     </ProjectFileItem>
+    <ProjectFileItem z:Id="i3">
+      <IsMain>false</IsMain>
+      <Path>New script.pix</Path>
+    </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
   <Name>TaskGit_2</Name>
